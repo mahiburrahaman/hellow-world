@@ -1,0 +1,68 @@
+
+html{
+	background:white;
+}
+body{
+	margin: auto;
+	background: #eee;
+	padding-left: 0;
+	width: 90%;
+}
+
+ header{
+ 	background: gray;
+ 	padding: 20px;
+ 	overflow: hidden;
+ }
+ .header-left{
+ 	float: left;
+ 	padding-left: 10Px;
+ }
+ .header-right{
+ 	padding: 40px;
+ 	float: right;
+ 	padding-right: 20px;
+ }
+ .img{
+ 	float: left;
+ 	border-radius:30%;
+ 	width: 200px;
+ 	height: 200px;
+ }
+ img{
+ 	width: 200px;
+ 	height: 200px;
+ 	border-radius:50%;
+ }
+ .name{
+ 	padding-bottom: 30px;
+ 	float: right;
+ 	margin-left: 10px;
+ }
+.content{
+	padding: 20px;
+}
+.row{
+  border-bottom: 2px solid #ccc;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.row:last-child{
+	border:none;
+}
+.col-left{
+    float:left;
+    font-style: italic;
+	width:20%;
+	margin-left: 4%;
+
+}
+.col-right{
+	float: right;
+	width: 60%;
+	margin-right: 4%;
+}
+.col-same{ 
+	float: left;
+	width: 32%
+}
